@@ -21,6 +21,7 @@
   (:export
    #:xml-rpc-call
    #:encode-xml-rpc-call
+   #:decode-xml-rpc
    #:call-xml-rpc-server
    #:xml-rpc-condition
    #:xml-rpc-fault #:xml-rpc-fault-code #:xml-rpc-fault-string

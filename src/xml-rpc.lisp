@@ -268,7 +268,7 @@
 (defun decode-xml-rpc-finish-element (name attributes parent-seed seed)
   (declare (ignore attributes))
   (cons (case name
-	  ((:|int| :|i4|) (parse-integer seed))
+	  ((:|int| :|i4| :|i8|) (parse-integer seed))
 	  (:|double| (read-from-string seed))
 	  (:|boolean| (= 1 (parse-integer seed)))
 	  (:|string| (if (null seed) "" seed))

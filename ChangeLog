@@ -1,3 +1,8 @@
+2015-02-17  Ian Quick <ian.quick@gmail.com>
+
+	* src/package.lisp: Export decode-xml-rpc.
+	* src/xml-rpc.lib: Support i8 integer type.
+
 2004-06-17  Rudi Schlatte  <rudi@constantly.at>
 
 	* src/package.lisp: Add system.getCapabilities.
